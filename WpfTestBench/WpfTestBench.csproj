@@ -10,7 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WpfTestBench.Base\WpfTestBench.Base.csproj" />
     <ProjectReference Include="..\WpfTestBench.Control\WpfTestBench.Controls.csproj" />
+    <ProjectReference Include="..\WpfTestBench.Imp\WpfTestBench.Imp.csproj" />
   </ItemGroup>
 
 </Project>

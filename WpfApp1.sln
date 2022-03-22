@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestBench", "WpfTestBench\WpfTestBench.csproj", "{B48716CB-5723-48BA-B9C2-7160BC4204D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTestBench", "WpfTestBench\WpfTestBench.csproj", "{B48716CB-5723-48BA-B9C2-7160BC4204D4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CB587214-BED6-48E5-B94C-A73440F79CD6} = {CB587214-BED6-48E5-B94C-A73440F79CD6}
+		{73E33ECA-468B-4382-9595-1CFD8EC4D718} = {73E33ECA-468B-4382-9595-1CFD8EC4D718}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTestBench.Controls", "WpfTestBench.Control\WpfTestBench.Controls.csproj", "{151E7077-192F-4FED-91D8-2BD3A2BD318D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestBench.Base", "WpfTestBench.Base\WpfTestBench.Base.csproj", "{CB587214-BED6-48E5-B94C-A73440F79CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTestBench.Base", "WpfTestBench.Base\WpfTestBench.Base.csproj", "{CB587214-BED6-48E5-B94C-A73440F79CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestBench.Imp", "WpfTestBench.Imp\WpfTestBench.Imp.csproj", "{73E33ECA-468B-4382-9595-1CFD8EC4D718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTestBench.Imp", "WpfTestBench.Imp\WpfTestBench.Imp.csproj", "{73E33ECA-468B-4382-9595-1CFD8EC4D718}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
